@@ -3,9 +3,7 @@ import Layout from '@/components/Layout'
 import type { NextPageWithLayout } from '@/pages/_app'
 
 const Home: NextPageWithLayout = () => {
-  return (
-    <h1>hoge</h1>
-  )
+  return <h1>hoge</h1>
 }
 
 Home.getLayout = function getLayout(page: ReactElement) {
